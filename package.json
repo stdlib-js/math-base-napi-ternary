@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-napi-ternary",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "C APIs for registering an N-API module exporting an interface for invoking a ternary numerical function.",
   "license": "Apache-2.0",
   "author": {
