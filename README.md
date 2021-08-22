@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> C APIs for registering an N-API module exporting interfaces for invoking ternary numerical functions.
+> C APIs for registering a Node-API module exporting interfaces for invoking ternary numerical functions.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -142,11 +142,11 @@ static double add( const double x, const double y, const double z ) {
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     return stdlib_math_base_napi_ddd_d( env, info, add );
@@ -181,11 +181,11 @@ static float addf( const float x, const float y, const float z ) {
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     return stdlib_math_base_napi_fff_f( env, info, addf );
@@ -206,7 +206,7 @@ void stdlib_math_base_napi_fff_f( napi_env env, napi_callback_info info, float (
 
 #### STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( fcn )
 
-Macro for registering an N-API module exporting an interface for invoking a ternary function accepting and returning double-precision floating-point numbers.
+Macro for registering a Node-API module exporting an interface for invoking a ternary function accepting and returning double-precision floating-point numbers.
 
 ```c
 static double add( const double x, const double y, const double z ) {
@@ -215,7 +215,7 @@ static double add( const double x, const double y, const double z ) {
 
 // ...
 
-// Register an N-API module:
+// Register a Node-API module:
 STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( add );
 ```
 
@@ -223,11 +223,11 @@ The macro expects the following arguments:
 
 -   **fcn**: `double (*fcn)( double, double, double )` ternary function.
 
-When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring N-API module registration.
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
 
 #### STDLIB_MATH_BASE_NAPI_MODULE_FFF_F( fcn )
 
-Macro for registering an N-API module exporting an interface for invoking a ternary function accepting and returning single-precision floating-point numbers.
+Macro for registering a Node-API module exporting an interface for invoking a ternary function accepting and returning single-precision floating-point numbers.
 
 ```c
 static float addf( const float x, const float y, const float z ) {
@@ -236,7 +236,7 @@ static float addf( const float x, const float y, const float z ) {
 
 // ...
 
-// Register an N-API module:
+// Register a Node-API module:
 STDLIB_MATH_BASE_NAPI_MODULE_FFF_F( addf );
 ```
 
@@ -244,7 +244,7 @@ The macro expects the following arguments:
 
 -   **fcn**: `float (*fcn)( float, float, float )` ternary function.
 
-When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring N-API module registration.
+When used, this macro should be used **instead of** `NAPI_MODULE`. The macro includes `NAPI_MODULE`, thus ensuring Node-API module registration.
 
 </section>
 
