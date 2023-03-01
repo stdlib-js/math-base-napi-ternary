@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary"
-click B href "https://github.com/stdlib-js/math-base-napi-ternary/tree/main"
-click C href "https://github.com/stdlib-js/math-base-napi-ternary/tree/production"
-click D href "https://github.com/stdlib-js/math-base-napi-ternary/tree/esm"
-click E href "https://github.com/stdlib-js/math-base-napi-ternary/tree/deno"
-click F href "https://github.com/stdlib-js/math-base-napi-ternary/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary"
+%% click B href "https://github.com/stdlib-js/math-base-napi-ternary/tree/main"
+%% click C href "https://github.com/stdlib-js/math-base-napi-ternary/tree/production"
+%% click D href "https://github.com/stdlib-js/math-base-napi-ternary/tree/esm"
+%% click E href "https://github.com/stdlib-js/math-base-napi-ternary/tree/deno"
+%% click F href "https://github.com/stdlib-js/math-base-napi-ternary/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary
