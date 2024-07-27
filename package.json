@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-napi-ternary",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "C APIs for registering a Node-API module exporting an interface for invoking a ternary numerical function.",
   "license": "Apache-2.0",
   "author": {
@@ -46,7 +46,7 @@
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",

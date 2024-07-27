@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-09)
+## 0.3.0 (2024-07-27)
 
 <section class="features">
 
@@ -51,6 +51,62 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.2.1 (2024-02-22)
 
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-14)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`bfadb4e`](https://github.com/stdlib-js/stdlib/commit/bfadb4ec68f961e8a87e2f1ea809d9d83e26ff5b) - **docs:** fix missing period _(by Athan Reines)_
+-   [`46d049b`](https://github.com/stdlib-js/stdlib/commit/46d049b5d38f9ef6e426d6a517ac8925c94d7642) - **build:** replace tslint directive _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2023-10-04)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-22)
+
 <section class="features">
 
 ### Features
@@ -80,8 +136,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`bfadb4e`](https://github.com/stdlib-js/stdlib/commit/bfadb4ec68f961e8a87e2f1ea809d9d83e26ff5b) - **docs:** fix missing period _(by Athan Reines)_
--   [`46d049b`](https://github.com/stdlib-js/stdlib/commit/46d049b5d38f9ef6e426d6a517ac8925c94d7642) - **build:** replace tslint directive _(by Philipp Burckhardt)_
 -   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
 
 </details>
@@ -94,14 +148,93 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Athan Reines
 -   Philipp Burckhardt
 
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.8">
+
+## 0.0.8 (2022-02-16)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.7">
+
+## 0.0.7 (2021-08-22)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.6">
+
+## 0.0.6 (2021-07-06)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.5">
+
+## 0.0.5 (2021-06-27)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.4">
+
+## 0.0.4 (2021-06-16)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.3">
+
+## 0.0.3 (2021-06-15)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.2">
+
+## 0.0.2 (2021-06-15)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2021-06-14)
+
+No changes reported for this release.
 
 </section>
 
