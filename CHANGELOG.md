@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-06)
+
+<section class="features">
+
+### Features
+
+-   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 
 </details>
@@ -24,9 +35,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
