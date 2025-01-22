@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-20)
+## Unreleased (2025-01-22)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0e28d1f`](https://github.com/stdlib-js/stdlib/commit/0e28d1ff8e332ace367d7014c0cbe4a3a416fd14) - **refactor:** move implementations and macros to separate files _(by Athan Reines)_
 -   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 
