@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
+## Unreleased (2025-01-23)
 
 <section class="features">
 
 ### Features
 
+-   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855)
 -   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - add `CCC_C` macro
 -   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - add `ZZZ_Z` macro
 -   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523)
@@ -24,6 +25,7 @@
 
 <details>
 
+-   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - **feat:** add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855) _(by Karan Anand, Athan Reines)_
 -   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - **feat:** add `CCC_C` macro _(by Athan Reines)_
 -   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - **feat:** add `ZZZ_Z` macro _(by Athan Reines)_
 -   [`0e28d1f`](https://github.com/stdlib-js/stdlib/commit/0e28d1ff8e332ace367d7014c0cbe4a3a416fd14) - **refactor:** move implementations and macros to separate files _(by Athan Reines)_
@@ -40,9 +42,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 
