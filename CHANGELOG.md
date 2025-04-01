@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-01)
+## Unreleased (2025-04-01)
 
 <section class="features">
 
@@ -20,12 +20,35 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6238](https://github.com/stdlib-js/stdlib/issues/6238)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
 -   [`18ad933`](https://github.com/stdlib-js/stdlib/commit/18ad933e9ddbf7eb689531e22d81640b164f73f0) - **docs:** fix typo by replacing `int_32` with `int32_t` [(#5546)](https://github.com/stdlib-js/stdlib/pull/5546) _(by Karan Anand, stdlib-bot)_
 -   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - **feat:** add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855) _(by Karan Anand, Athan Reines)_
