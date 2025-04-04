@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-04-04)
 
 <section class="features">
 
 ### Features
 
+-   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534)
 -   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281)
 -   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855)
 -   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - add `CCC_C` macro
@@ -48,6 +49,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - **feat:** add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
 -   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
 -   [`18ad933`](https://github.com/stdlib-js/stdlib/commit/18ad933e9ddbf7eb689531e22d81640b164f73f0) - **docs:** fix typo by replacing `int_32` with `int32_t` [(#5546)](https://github.com/stdlib-js/stdlib/pull/5546) _(by Karan Anand, stdlib-bot)_
 -   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281) _(by Prashant Kumar Yadav, Athan Reines)_
@@ -68,10 +70,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 
