@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-08-16)
 
 <section class="features">
 
@@ -26,6 +26,7 @@
 
 ### Bug Fixes
 
+-   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - correct argument order for iid_d in `math/base/napi/ternary` NAPI function
 -   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481)
 
 </section>
@@ -50,6 +51,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`4d6978d`](https://github.com/stdlib-js/stdlib/commit/4d6978d4d38a3b44266a22199a81e8eb848741fb) - **fix:** correct argument order for iid_d in `math/base/napi/ternary` NAPI function _(by Philipp Burckhardt)_
 -   [`8459c35`](https://github.com/stdlib-js/stdlib/commit/8459c356561052d228647bf66476ad699911abfd) - **feat:** add `FII_F` macro in `math/base/napi/ternary` [(#6542)](https://github.com/stdlib-js/stdlib/pull/6542) _(by Neeraj Pathak)_
 -   [`a321f17`](https://github.com/stdlib-js/stdlib/commit/a321f17ca75c91155b6d90df8bf1bc1ba03376f7) - **feat:** add `FIF_F` macro in `math/base/napi/ternary` [(#6534)](https://github.com/stdlib-js/stdlib/pull/6534) _(by Neeraj Pathak, Athan Reines, Karan Anand)_
 -   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
