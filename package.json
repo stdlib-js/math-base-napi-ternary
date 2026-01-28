@@ -45,7 +45,7 @@
     "@stdlib/complex-float32-reim": "^0.1.2",
     "@stdlib/complex-float64-ctor": "^0.0.3",
     "@stdlib/complex-float64-reim": "^0.1.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
@@ -84,11 +84,6 @@
     "map",
     "transform"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
